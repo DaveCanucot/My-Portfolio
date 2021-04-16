@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.8226f52e.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.0bae7a6d.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.0bae7a6d.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.e7c80985.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.e7c80985.js.map",
+    "static/js/2.b5af6ad9.chunk.js": "/My-Portfolio/static/js/2.b5af6ad9.chunk.js",
+    "static/js/2.b5af6ad9.chunk.js.map": "/My-Portfolio/static/js/2.b5af6ad9.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.8226f52e.chunk.css.map": "/My-Portfolio/static/css/main.8226f52e.chunk.css.map",
+    "static/js/2.b5af6ad9.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.b5af6ad9.chunk.js.LICENSE.txt",
+    "static/media/Avatar.5da32dbd.jpg": "/My-Portfolio/static/media/Avatar.5da32dbd.jpg",
+    "static/media/award.026679c5.svg": "/My-Portfolio/static/media/award.026679c5.svg",
+    "static/media/coffee.975606d5.svg": "/My-Portfolio/static/media/coffee.975606d5.svg",
+    "static/media/facebook-brands.f1c42896.svg": "/My-Portfolio/static/media/facebook-brands.f1c42896.svg",
+    "static/media/fire.fc064e57.svg": "/My-Portfolio/static/media/fire.fc064e57.svg",
+    "static/media/github-brands.67608d92.svg": "/My-Portfolio/static/media/github-brands.67608d92.svg",
+    "static/media/linkedin-brands.19f51bcc.svg": "/My-Portfolio/static/media/linkedin-brands.19f51bcc.svg",
+    "static/media/service-1.cf1ed095.svg": "/My-Portfolio/static/media/service-1.cf1ed095.svg",
+    "static/media/user-friends.1718fa53.svg": "/My-Portfolio/static/media/user-friends.1718fa53.svg",
+    "static/media/web.5c151f13.svg": "/My-Portfolio/static/media/web.5c151f13.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7c80985.js",
+    "static/js/2.b5af6ad9.chunk.js",
+    "static/css/main.8226f52e.chunk.css",
+    "static/js/main.0bae7a6d.chunk.js"
+  ]
+}
