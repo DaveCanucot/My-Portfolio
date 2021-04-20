@@ -24,7 +24,7 @@ function About() {
                                     developing and customization, 
                                     I am also good at WordPress and Android.</p>
                                     <div className="dl-button">
-                                        Download CV
+                                        <a href="https://drive.google.com/file/d/1lreEBjh8NHxzLUB-ZyCFB-ogy8i_WsrF/view?usp=sharing" target="_blank">Download CV</a>
                                     </div>
                             </div>
                             <div className="middle"></div>
