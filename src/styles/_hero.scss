@@ -1,0 +1,99 @@
+#tsparticles{
+    position: absolute;
+    width: 100% !important;
+    height: 100vh !important;
+    z-index: -1;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+   .avatar-img{
+    margin-top: 250px;
+    width: 150px;
+    border-radius: 60%;
+   }
+   h1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+   }
+   .typescript{
+       margin-top: 10px;
+       @media screen and (max-width:480px) {
+        font-size: 4vw;
+       }
+      b{
+        @media screen and (max-width:480px) {
+            font-size: 4vw;
+           }
+      }
+   }
+   .social{
+       margin-top: 30px;
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-start;
+       width: 188px;
+       &-links{
+           display: flex;
+           width: 32px;
+        &:hover{
+            color: #F3EF7A;;
+            cursor: pointer;
+        }
+       }
+       &-icons{
+           width: 100%;
+       }
+   }
+   .btn-contact{
+       cursor: pointer;
+       margin-top: 30px;
+       border-radius: 30px;
+       background-color: #ff4c60;
+       .text{
+           padding:10px 30px;
+           font-size: 15px;
+       }
+   }
+   .scroll-down{
+       position: absolute;
+       bottom: 40px;
+       left: 0;
+       width: 100%;
+       .mouse-wrapper{
+           cursor: pointer;
+           span{
+               color: #fff;
+               font-size: 15px;
+               text-align: center;
+               display: flex;
+               justify-content: center;
+           }
+           .mouse{
+            border: 2px solid #fff;
+            border-radius: 16px;
+            display: block;
+            margin: 10px auto auto;
+            height: 26px;
+            position: relative;
+            width: 20px;
+            .wheel{
+                background: #fff;
+                display: block;
+                position: absolute;
+                top: 8px;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 4px;
+                width: 4px;
+                animation: ani-mouse 2s linear infinite;
+            }
+           }
+       }
+   }
+}

@@ -1,0 +1,160 @@
+.Container{
+    margin-top: 50px;
+    h1{
+        background-image: url("../Images/dots-menu.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-size: 30px;
+    }
+    &-fluid{
+        display: flex;
+        @media screen and(max-width:768px){
+            flex-direction: column;
+            align-items: center;
+        }
+        .left{
+            width: 30%;
+            display: flex;
+            align-items: center;
+        @media screen and (max-width:768px){
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+            .hero{
+                width: 150px;
+                border-radius: 60%;
+            }
+        }
+        .right{
+            width: 70%;
+            background-color: #302f4e;
+            padding: 20px;
+            border-radius: 30px;
+            @media screen and (max-width:768px){
+                width: 100%;
+            }
+            &-container{
+                display: flex;
+            @media screen and (max-width:768px){
+                flex-direction: column;
+            }
+                .description{
+                width: 48%;
+                display: flex;
+                flex-direction: column;
+                @media screen and (max-width:768px){
+                    width: 100%;
+                }
+
+                p{
+                    white-space: pre-line;
+                    font-size: 20px;
+                }
+                .dl-button{
+                    background-color: #ff4c60;
+                    text-align: center;
+                    width: 50%;
+                    border-radius: 30px;
+                    padding: 5px 0;
+                    margin-top: 20px;
+                    font-size: 20px;
+                    @media screen and (max-width:768px){
+                        margin-bottom: 20px;
+                    }
+                }
+                }
+                .middle{
+                    width: 4%;
+                }
+                .progress-skill{
+                    width: 48%;
+                    @media screen and (max-width:768px){
+                        width: 100%;
+                    }
+                    p{
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        span{
+                            font-size: 20px;
+                        }
+                    }
+                    .progress {
+
+                        margin: 10px 0;
+                        height: 6px;
+                        background: #e1e4e8;
+                        border-radius: 3px;
+                        overflow: hidden;
+                        .bar {
+                            width: 95%;
+                            display: block;
+                            height: 100%;
+                            background: linear-gradient(90deg, #ffd33d, #ea4aaa 17%, #b34bff 34%, #01feff 51%, #ffd33d 68%, #ea4aaa 85%, #b34bff);
+                            background-size: 300% 100%;
+                            -webkit-animation: progress-animation 2s linear infinite;
+                            animation: progress-animation 2s linear infinite;
+                        }
+    
+                        @-webkit-keyframes progress-animation {
+                            0% {
+                                background-position: 100%;
+                            }
+    
+                            100% {
+                                background-position: 0;
+                            }
+                        }
+    
+                        @keyframes progress-animation {
+                            0% {
+                                background-position: 100%;
+                            }
+    
+                            100% {
+                                background-position: 0;
+                            }
+                        }
+                    }
+                    :nth-child(4){
+                        .bar{
+                            width: 80%;
+                        }
+                    }
+                    :nth-child(6){
+                        .bar{
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .achievements{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:768px){
+            flex-wrap: wrap;
+        }
+        @media screen and (max-width:480px){
+            flex-direction: column;
+        }
+        .fire{
+            display: flex;
+            align-items: center;
+            .icon{
+                width: 36px;
+                height: 36px;
+                margin-right: 10px;
+            }
+            .number{
+                display: flex;
+                flex-direction: column;
+                span{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

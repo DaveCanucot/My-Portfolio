@@ -1,0 +1,69 @@
+.experience{
+    margin-top: 50px;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+    h1{
+        background-image: url("../Images/dots-menu.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-size: 30px;
+    }
+    .container{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+        }
+        .awards{
+            width: 48%;
+            padding: 30px;
+            background: #302f4e;
+            box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+            border-radius: 20px;
+            .first{
+                margin-bottom: 15px;
+            span{
+                font-size: 18px;
+                color: #8b88b1;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        @media screen and (max-width:768px){
+            width: 100%;
+        }
+        }
+        .blank{
+            width: 4%;
+            @media screen and (max-width:768px){
+                width: 100%;
+                height: 35px;
+            }
+        }
+        .exp{
+            width: 48%;
+            padding: 30px;
+            background: #302f4e;
+            box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+            border-radius: 20px;
+            .first{
+                margin-bottom: 15px;
+            span{
+                font-size: 18px;
+                color: #8b88b1;
+            }
+            p{
+                font-size: 15px;
+            }
+            
+        }
+        @media screen and (max-width:768px){
+            width: 100%;
+        }
+        }
+    }
+}
