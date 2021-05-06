@@ -49,7 +49,13 @@ function NavBar({toggle}) {
                       activeClassName="active">Experience</Link>
                  </li>
                  <li className="items">
-                     <NavLink to="/Works" exact activeClassName="active">Works</NavLink>
+                 <Link to="works" 
+                     smooth={true}
+                     duration={500}
+                      spy={true}
+                      exact='true'
+                      offset={-80}
+                      activeClassName="active">Works</Link>
                  </li>
                  <li className="items">
                      <NavLink to="/Blog" exact activeClassName="active">Blog</NavLink>
