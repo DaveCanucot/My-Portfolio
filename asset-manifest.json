@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.91b64fda.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.fa520e4e.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.fa520e4e.chunk.js.map",
-    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.e7c80985.js",
-    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.e7c80985.js.map",
-    "static/js/2.fdc45d7e.chunk.js": "/My-Portfolio/static/js/2.fdc45d7e.chunk.js",
-    "static/js/2.fdc45d7e.chunk.js.map": "/My-Portfolio/static/js/2.fdc45d7e.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.e0882b34.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.9b228fd5.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.9b228fd5.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.21a43d5b.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.21a43d5b.js.map",
+    "static/js/2.18df9943.chunk.js": "/My-Portfolio/static/js/2.18df9943.chunk.js",
+    "static/js/2.18df9943.chunk.js.map": "/My-Portfolio/static/js/2.18df9943.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "static/css/main.91b64fda.chunk.css.map": "/My-Portfolio/static/css/main.91b64fda.chunk.css.map",
-    "static/js/2.fdc45d7e.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.fdc45d7e.chunk.js.LICENSE.txt",
+    "static/css/main.e0882b34.chunk.css.map": "/My-Portfolio/static/css/main.e0882b34.chunk.css.map",
+    "static/js/2.18df9943.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.18df9943.chunk.js.LICENSE.txt",
     "static/media/1.b5cc0105.png": "/My-Portfolio/static/media/1.b5cc0105.png",
     "static/media/2.9dc9f054.png": "/My-Portfolio/static/media/2.9dc9f054.png",
     "static/media/3.0dcdb3be.png": "/My-Portfolio/static/media/3.0dcdb3be.png",
@@ -23,14 +23,14 @@
     "static/media/fire.fc064e57.svg": "/My-Portfolio/static/media/fire.fc064e57.svg",
     "static/media/github-brands.67608d92.svg": "/My-Portfolio/static/media/github-brands.67608d92.svg",
     "static/media/linkedin-brands.19f51bcc.svg": "/My-Portfolio/static/media/linkedin-brands.19f51bcc.svg",
-    "static/media/service-1.cf1ed095.svg": "/My-Portfolio/static/media/service-1.cf1ed095.svg",
+    "static/media/service-1.2737db27.svg": "/My-Portfolio/static/media/service-1.2737db27.svg",
     "static/media/user-friends.1718fa53.svg": "/My-Portfolio/static/media/user-friends.1718fa53.svg",
-    "static/media/web.5c151f13.svg": "/My-Portfolio/static/media/web.5c151f13.svg"
+    "static/media/web.0189a317.svg": "/My-Portfolio/static/media/web.0189a317.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7c80985.js",
-    "static/js/2.fdc45d7e.chunk.js",
-    "static/css/main.91b64fda.chunk.css",
-    "static/js/main.fa520e4e.chunk.js"
+    "static/js/runtime-main.21a43d5b.js",
+    "static/js/2.18df9943.chunk.js",
+    "static/css/main.e0882b34.chunk.css",
+    "static/js/main.9b228fd5.chunk.js"
   ]
 }
