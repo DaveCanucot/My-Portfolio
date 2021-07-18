@@ -13,10 +13,6 @@ function App() {
   return (
     <Router>
       <Home />
-      <Switch >
-      <Route exact path="/Home" component={Home} />
-      <Route exact path="../ReadMore" component={ReadMore} />
-      </Switch>
     </Router>
   );
 }
