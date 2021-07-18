@@ -1,23 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { mainData } from '../../data';
 
-function index() {
-    console.log(mainData);
+function Index() {
+
+    const [openModal, setOpenModal] = useState(false);
+    const [data, setData] = useState(null);
+
+    const toggleModal = () =>{
+        setOpenModal(!openModal);
+    }
+
+    const Modal = (modalHandler) => {
+        return(
+            <div id="ex1" className="dave">
+                <button onClick={modalHandler}> closeme </button>
+            </div> 
+        )
+    }
+
     const listItem = mainData.map((item) => 
         <div className="card-container" key={item.id}>
-        <div class="card"><img src={item.thumb}/>
-            <div class="info">
-                <h2>{item.name}</h2>
-                <p>{item.discription}</p>
-                <button><a href={item.link} target="_blank">Read More</a></button>
-            </div>
-        </div>
+            <figure className="image-block">
+                <img src={item.thumb} alt="" />
+                <figcaption>
+                    <h3>
+                        {item.name}
+                    </h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <button onClick={toggleModal }>
+                    More Info
+                    </button>
+                </figcaption>
+            </figure>
     </div>
     )
     return (
         <>
         {listItem}
         </>
+
     )
 }
-export default index
+export default Index
