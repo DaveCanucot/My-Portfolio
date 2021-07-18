@@ -12,14 +12,10 @@ import ReadMore from './Pages/ReadMore';
 function App() {
   return (
     <Router>
+      <Home />
       <Switch >
       <Route exact path="/Home" component={Home} />
-      <Route exact path="/ReadMore" component={ReadMore} />
-      {/* <Hero/>
-      <About/>
-      <Services/>
-      <Experience />
-      <Works/> */}
+      <Route exact path="../ReadMore" component={ReadMore} />
       </Switch>
     </Router>
   );

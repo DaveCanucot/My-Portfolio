@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom';
 import { mainData } from '../../data';
 
 function Index() {
 
+    let history = useHistory();
+    
     const [openModal, setOpenModal] = useState(false);
     const [data, setData] = useState(null);
 
@@ -27,7 +30,7 @@ function Index() {
                         {item.name}
                     </h3>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <button onClick={toggleModal }>
+                    <button onClick={()=> {history.push("./ReadMore")} }>
                     More Info
                     </button>
                 </figcaption>
