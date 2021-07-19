@@ -17,18 +17,38 @@ $lg: new-breakpoint(min-width 1024px);
 
 .card-container{
 	margin-bottom: 50px;
-
-	.modal{
-		max-width: unset;
-		&__imgcontainer{
-			width: 80%;
-			img{
-				width: 100%;
-			}
-		}
-	}
+}
+.workthumbnail{
+	width: 100%;
+}
+.workname{
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+}
+.workDescription{
+	text-align: center;
+	color:#000;
+	padding-top: 20px;
+}
+.worklinkto{
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
+	justify-content: center;
+    display: flex;
+    padding-top: 20px;
 }
 
+
+.workplatform{
+	font-size: 16px;
+	border-radius: 25px;
+	width: 90px;
+	padding: 5px;
+	color: #1abc9c;
+	border:1px solid #2c3e50;
+}
 
 figure {
 	position: relative;
@@ -89,14 +109,4 @@ figure {
 			font-size: 14px;
 		}
 	}
-}
-
-.dave {
-	height: 50vh;
-	width: 50vw;
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translateX(-50%);
-	background-color: aqua;
 }

@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Modal = ({item}) => {
-        console.log(item);
+const Modal = ({ toggle }) => {
     return (
-        <div id="ex1" className="modal">
-        </div>
-
+        <>
+            <button onClick={toggle}>
+                Read More
+            </button>
+        </>
     )
 }
 

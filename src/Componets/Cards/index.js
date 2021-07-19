@@ -1,26 +1,20 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom';
 import { mainData } from '../../data';
+import Modal from '../Modal';
+import ModalContent from '../ModalContent';
 
 function Index() {
 
-    let history = useHistory();
     
     const [openModal, setOpenModal] = useState(false);
+
     const [data, setData] = useState(null);
 
-    const toggleModal = () =>{
+    const toggleModal = (item) =>{
         setOpenModal(!openModal);
+        setData(item)
     }
-
-    const Modal = (modalHandler) => {
-        return(
-            <div id="ex1" className="dave">
-                <button onClick={modalHandler}> closeme </button>
-            </div> 
-        )
-    }
-
     const listItem = mainData.map((item) => 
         <div className="card-container" key={item.id}>
             <figure className="image-block">
@@ -29,10 +23,8 @@ function Index() {
                     <h3>
                         {item.name}
                     </h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <button onClick={()=> {history.push("./ReadMore")} }>
-                    More Info
-                    </button>
+                    <p>{item.discription}</p>
+                    <Modal toggle={()=>toggleModal(item)}/>
                 </figcaption>
             </figure>
     </div>
@@ -40,6 +32,7 @@ function Index() {
     return (
         <>
         {listItem}
+        <ModalContent handler={toggleModal} open={openModal} selectedItem={data}/>
         </>
 
     )
