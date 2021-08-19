@@ -58,6 +58,16 @@ const mainData = [
         platform:platForm[1]
 
     },
+    {
+        id:7,
+        name:"Recipe App",
+        link:"https://k-syu.com/cowscrown/index.html",
+        thumb:images.cows,
+        discription:"Cows Crown is an XD Design from jeengross client, Converted to Landing Page. built from scratch using HTML, SCSS, JS. When it was under developement I was under the Organization of HiPE Japan.inc ",
+        position:'Developer',
+        platform:platForm[1]
+
+    },
 ]
 
 export default mainData 

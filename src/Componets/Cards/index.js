@@ -1,38 +1,32 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import { useHistory } from 'react-router-dom';
-import { mainData } from '../../data';
 import Modal from '../Modal';
 import ModalContent from '../ModalContent';
 
-function Index() {
+function Index(props) {
 
-    
+    console.log(props);
     const [openModal, setOpenModal] = useState(false);
 
-    const [data, setData] = useState(null);
 
-    const toggleModal = (item) =>{
+    const toggleModal = () =>{
         setOpenModal(!openModal);
-        setData(item)
     }
-    const listItem = mainData.map((item) => 
-        <div className="card-container" key={item.id}>
+    return (
+        <>
+        <ModalContent handler={toggleModal} open={openModal} selectedItem={props}/>
+        <div className="card-container" key={props.id}>
             <figure className="image-block">
-                <img src={item.thumb} alt="" />
+                <img src={props.thumb} alt="" />
                 <figcaption>
                     <h3>
-                        {item.name}
+                        {props.name}
                     </h3>
-                    <p>{item.discription}</p>
-                    <Modal toggle={()=>toggleModal(item)}/>
+                    <p>{props.discription}</p>
+                    <Modal toggle={()=>toggleModal(props)}/>
                 </figcaption>
             </figure>
     </div>
-    )
-    return (
-        <>
-        {listItem}
-        <ModalContent handler={toggleModal} open={openModal} selectedItem={data}/>
         </>
 
     )
